@@ -46,7 +46,7 @@ button:hover{
     line-height: normal;
     margin-bottom: 24px;
 }
-header{
+header, #hot-deal{
     background-color:rgba(229, 84, 115, 0.10);
 }
 .banner{
@@ -109,4 +109,35 @@ header{
     font-weight: 700;
     line-height: 35px; /* 145.833% */
     text-decoration-line: underline;
+}
+.hot-deal-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0px;
+
+}
+#hot-deal .hot-deal-text{
+    /* max-width: 445px; */
+    width: 75%;
+    max-width: 550px;
+    text-align: center;
+}
+#hot-deal .hot-deal-text *{
+    margin-bottom: 24px;
+}
+
+#hot-deal .hot-deal-text h2{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+#hot-deal .hot-deal-img{
+    max-width: 318px;
+}
+#hot-deal .hot-deal-text h2 .important{
+    color: #E55473;
 }
