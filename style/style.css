@@ -141,3 +141,25 @@ header, #hot-deal{
 #hot-deal .hot-deal-text h2 .important{
     color: #E55473;
 }
+#news-letter{
+    margin: 128px 0;
+}
+.news-letter-main{
+    background-image: url('../Flower Asset/Rectangle 9.png');
+    padding: 122px 0;
+
+}
+#news-letter form{
+    max-width: 800px;
+    margin: 20px auto;
+    display:flex;
+    gap: 10px;
+}
+#news-letter form input{
+    flex-grow: 1;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 20px;
+    outline: n1px solid green;
+}
